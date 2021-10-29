@@ -1,0 +1,68 @@
+
+body{
+    background-image: url(https://www.empreendedor.com/wp-content/uploads/2017/10/people-2557396_1920-1024x683-1.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;       
+    margin: 0px;
+    padding: 0px;    
+    background-color: rgba(0, 0, 0.2, 0.1);
+}
+
+h1{    
+    margin-left: 5px;
+    font-size: 17px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;    
+}
+
+h2{    
+    margin-left: 5px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;    
+}
+
+input[type=text] {
+    width: 180px;
+    height: 30px;    
+    margin-left: 10px;         
+    background-color: white;
+    border-radius: 5px;
+}
+
+button{
+    float: right;
+    width:auto;
+    height: 30px;
+    margin-top: 5px;    
+    margin-left: 10px;    
+    border: 0px;
+    border-radius: 3px;   
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}
+
+div#blocoDeVidro{      
+    margin-top: 200px;
+    margin-left: 400px;    
+    width: 500px;
+    height: 170px;        
+    color: rgb(0, 0, 0);      
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+}
+
+div#impressaoCliente{           
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;        
+    color: rgb(0, 0, 0);      
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+li{
+    
+}
