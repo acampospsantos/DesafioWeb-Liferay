@@ -54,15 +54,22 @@ div#blocoDeVidro{
 }
 
 div#impressaoCliente{           
+    text-align: center;
     margin-left: 400px;
-    margin-top: 40px;
-    width: 200px;
-    height: 50px;        
-    color: rgb(0, 0, 0);      
-    backdrop-filter: blur(15px);
-    border-radius: 20px;
+    margin-top: 40px;             
+    width: 500px;
 }
 
-li{
-    
+li{    
+    font-family: Candara;
+    font-size: 20px;
+    text-align: center;    
+    color: white;
+    display: inline-block; 
+    text-align: left;
+    margin-top: 15px;    
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;   
+    backdrop-filter: blur(30px);     
 }
