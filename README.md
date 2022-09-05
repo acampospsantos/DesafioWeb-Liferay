@@ -10,3 +10,4 @@ Como bônus, pode-se brincar com a visualização dos elementos da fila, definin
 ![Screenshot Desafio Frontend 2](https://user-images.githubusercontent.com/54013675/188023051-5c876f72-256f-4ba8-bae5-913e0824cf49.png)
 
 ## Site Final:
+![Screenshot_2](https://user-images.githubusercontent.com/54013675/188348429-83b54f3c-000e-4f30-9b4e-cb5a8410ddf8.png)
