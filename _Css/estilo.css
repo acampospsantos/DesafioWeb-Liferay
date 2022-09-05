@@ -1,0 +1,77 @@
+*{ /* Configuração global do projeto */
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/assets/n_43800_ff7b9b8cba431df7f44263a298bdd70f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Cada item vai ficar abaixo do outro*/
+}
+
+h3{
+    margin-top: 10px;
+    margin-left: 12px;
+    font-size: 17px;
+    color: white;
+}
+
+.container-input{
+    max-width: 500px;
+    max-height: 550px;
+    margin: 14px 0;
+    backdrop-filter: blur( 10px );
+    border-radius: 8px;
+}
+
+input[type=text] {
+    width: 250px;
+    height: 35px;    
+    margin-top: 5px;
+    margin-left: 15px;         
+    background-color: white;
+    border-radius: 5px;
+}
+
+button{
+    float: right;
+    width:auto;
+    height: 32px;
+    margin-top: 15px;    
+    margin-left: 6px;  
+    margin-right: 10px;  
+    margin-bottom: 15px;
+    border: 0px;
+    border-radius: 4px;   
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+}
+
+div#container-queue{        
+    position: relative;   
+    text-align: center;
+    margin-top: 40px;             
+    width: 500px;
+}
+
+li{    
+    font-size: 20px;
+    text-align: center;    
+    color: white;
+    display: inline-block; 
+    text-align: left;
+    margin-top: 15px;    
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;   
+    backdrop-filter: blur(30px);     
+}

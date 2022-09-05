@@ -4,25 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Desafio da Liferay</title>
-    <link rel="stylesheet" type="text/css" href="/css/design.css" />
+    <link rel="stylesheet" type="text/css" href="/_Css/estilo.css" />
 </head>
 
 <body>
-    <div id="blocoDeVidro">
-        <h1> Adicionar cliente à fila: </h1>
-        <input id="texto" type="text" placeholder="Nome do cliente" maxlength="30">        
-        <h2> Escolha uma cor para a ficha: </h2>               
-        <button onclick="remover()"> Concluir atendimento </button>
-        <button onclick="adicionar()">Adicionar</button>
-    </div>    
+    
 
-    <div id="impressaoCliente"> 
-        <ul id="lista">                
-        </ul>
-    </div>   
-   
+    <main class="container-input"> <!-- Classe do Container de vidro -->
+        <h3> Adicionar cliente à fila:</h3>
+        <input id="texto" type="text" placeholder="Nome do cliente" maxlength="30"> <!-- Espaço para o usuário digitar o nome da pessoa que vai entrar na fila-->
+        <h3> Escolha uma cor para a ficha: </h3> 
+        <!-- Espaço para o usuário digitar a cor da ficha da pessoa que vai entrar na fila-->
+        <button onclick="remover()" > Concluir atendimento </button>
+        <button onclick="adicionar()"> Entrar na fila </button>
+    </main>
 
-<script src="js/interacao.js"></script>
+    <div id="container-queue"> <!-- div que imprime o nome dos clientes da fila-->
+        <ul id="lista"> </ul>
+    </div>
+
+    <script src="_javaScript/script.js"></script>
 </body>
 
 </html>

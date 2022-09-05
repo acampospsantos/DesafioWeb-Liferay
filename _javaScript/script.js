@@ -2,7 +2,9 @@ function adicionar(){
     let text = document.getElementById("texto").value;   
     let list = document.getElementById("lista").innerHTML;
     
-    list +="<li>" +text+ "</li>";
+    list+="<li>" +text+ "</li>";
+    let lista = [];
+    lista.push(text);
     
     document.getElementById("lista").innerHTML = list;
     //Limpei o campo de texto
@@ -12,6 +14,8 @@ function adicionar(){
   function remover(){
      let list = document.getElementById("lista").innerHTML="";
      let text = document.getElementById("texto").value; 
+
+     
     
     list -="<li>" +text+ "</li>";
   }
